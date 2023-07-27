@@ -23,6 +23,7 @@ function App() {
       <Services></Services>
       <About></About>
      <Team></Team>
+    <Footer></Footer>
   
       
     </div>

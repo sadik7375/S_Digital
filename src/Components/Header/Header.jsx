@@ -23,8 +23,8 @@ display:'Home',
             
             },
             {
-                path:'#blog',
-                display:'Blog',
+                path:'#Footer',
+                display:'Contact us',
                 
                 },
 
