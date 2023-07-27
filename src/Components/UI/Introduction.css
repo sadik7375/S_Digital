@@ -1,0 +1,50 @@
+.intro-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro-content,
+.intro-img {
+    width: 65%;
+}
+
+.intro-content h2 {
+    font-size: 2rem;
+    line-height: 30px;
+}
+
+.intro-content p {
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.hightlight {
+    color: var(--primary-color);
+}
+
+.intro__btns {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    column-gap: .7rem;
+}
+
+.primary__btn,
+.secondary__btn {
+    padding: .9rem, 2rem;
+    border: none;
+    outline: none;
+    border-radius: .4rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.primary__btn {
+    background: var(--btn-primary-bg);
+    border: 1px solid var(--btn-primary-bg);
+}
+
+.secondary__btn {
+    background: var(--testimonial-bg);
+    border: 1px solid var(--testimonial-bg);
+}
